@@ -29,6 +29,11 @@ form {
 	border: 0.3em solid green;
 }
 
+a {
+	text-decoration: none;
+	color: green;
+}
+
 div#input, div#decrypted {
 	border: 0.25em;
 	color: green;

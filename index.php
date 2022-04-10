@@ -12,7 +12,7 @@
         <div id="input">
             <form action="index.php" method="GET">
                 <div class="container">
-                    <h3 class="typewriter">Enter the encrypted word:</h3> 
+                    <h3 class="typewriter"><a href="index.php">Enter the encrypted word:</a></h3> 
                 </div>
                 <br>
                 <input type="text" name="encrypted-word" id="textfield"> 
