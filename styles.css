@@ -1,0 +1,43 @@
+* {
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+#textfield {
+    height: 2.5em;
+    width: 20em;
+}
+
+#submit-btn {
+    height: 3em;
+    width: 6em;
+}
+
+div#input, div#decrypted {
+    margin: auto;
+    color: green;
+    border: 5px;
+}
+
+div#input {
+    padding: 2em;
+    font-size: 2em;
+    border-style: solid;
+}
+
+div#decrypted {
+    padding: 3em;
+    font-size: 1.5em;
+    border-style: dotted;
+}
+
+ul {
+    list-style-type: none;
+}
