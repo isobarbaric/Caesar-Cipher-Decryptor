@@ -22,7 +22,7 @@ form {
 }
 
 #submit-btn {
-	height: 3em;
+	height: 3.5em;
 	width: 6em;
 	background: black;
     color: green;
@@ -39,6 +39,13 @@ div#input {
 	border-style: solid;
 	font-size: 2em;
 	padding: 2em;
+}
+
+input[type="text"] {
+	padding: 0px;
+	background-color : green;  
+	font-size: 17px;
+	font-weight: bold; 
 }
 
 div#decrypted {
