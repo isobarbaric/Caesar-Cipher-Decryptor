@@ -1,43 +1,92 @@
 * {
-    font-family: 'Courier Prime', monospace;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-    font-family: 'Space Mono', monospace;
-    text-align: center;
+	box-sizing: border-box;
+	font-family: 'Courier Prime', monospace;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	font-family: 'Space Mono', monospace;
+	text-align: center;
 }
 
 body {
-    background-color: black;
+	background-color: black;
+}
+
+form {
+	margin-left: auto;
+	margin-right: 0;
 }
 
 #textfield {
-    height: 2.5em;
-    width: 20em;
+	height: 2.5em;
+	width: 20em;
 }
 
 #submit-btn {
-    height: 3em;
-    width: 6em;
+	height: 3em;
+	width: 6em;
 }
 
 div#input, div#decrypted {
-    margin: auto;
-    color: green;
-    border: 5px;
+	border: 0.25em;
+	color: green;
+	margin: auto;
 }
 
 div#input {
-    padding: 2em;
-    font-size: 2em;
-    border-style: solid;
+	border-style: solid;
+	font-size: 2em;
+	padding: 2em;
 }
 
 div#decrypted {
-    padding: 3em;
-    font-size: 1.5em;
-    border-style: dotted;
+	border-style: dotted;
+	font-size: 1.4em;
+	padding: 1.5em;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
+}
+
+.container {
+	display: inline-block;
+}
+
+.typewriter {
+	animation: typing 1s steps(20, end) forwards;
+	border-right: .15em solid green;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+}
+
+.list {
+	display: inline;
+	list-style: none;
+	padding: 0px;
+}
+
+.list li {
+	display: inline;
+}
+
+.list li::after {
+	content: ", ";
+}
+
+.list li:last-child::after {
+	content: "";
+}
+
+h4, h6 {
+	display: inline;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
 }
