@@ -27,7 +27,7 @@
                 $wordEntered = $_GET["encrypted-word"];
                 $decryptedWords = findWords($wordEntered);
                 echo '<div id="decrypted">';
-        echo "\n\t\t\t<h4>".count($decryptedWords)." valid decryption(s) were found...</h4>";
+                echo "\n\t\t\t<h4>".count($decryptedWords)." valid decryption(s) were found...</h4>";
                 echo "\n\t\t\t".'<ul class="list">';
                 for ($i = 0; $i < count($decryptedWords); $i++) 
                     echo "\n\t\t\t\t".'<li><h6>'.$decryptedWords[$i]."</h6></li>";
