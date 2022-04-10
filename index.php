@@ -23,7 +23,7 @@
             if (!empty($wordEntered)) { 
                 $wordEntered = $_GET["encrpyted-word"];
                 $decryptedWords = findWords($wordEntered);
-                echo '<div id="decrypted">\n<ul>\n';
+                echo '<div id="decrypted">'."\n".'<ul>'."\n";
                 echo count($decryptedWords)." word(s) were found...\n";
                 for ($i = 0; $i < count($decryptedWords); $i++) 
                     echo "\n\t\t<li>".$decryptedWords[$i]."</li>";
