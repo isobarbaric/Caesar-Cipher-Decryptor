@@ -30,7 +30,7 @@
                 echo "\n\t\t\t<h4>".count($decryptedWords)." valid decryption(s) were found...</h4>";
                 echo "\n\t\t\t".'<ul class="list">';
                 for ($i = 0; $i < count($decryptedWords); $i++) 
-                    echo "\n\t\t\t\t".'<li><h6>'.$decryptedWords[$i]."</h6></li>";
+                    echo "\n\t\t\t\t".'<li>'.$decryptedWords[$i]."</li>";
                 echo "\n\t\t\t</ul>\n\t\t</div>";
             }
         ?>  

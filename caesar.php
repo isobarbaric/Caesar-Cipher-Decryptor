@@ -9,6 +9,8 @@
             return 0;
         if (substr_count($result, 'class="secondary"') > 0) 
             return 0;
+        if (substr_count($result, 'abbreviation'))
+            return 0;
         return 1;
     }
 
